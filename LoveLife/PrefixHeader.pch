@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  LoveLife
+//
+//  Created by qianfeng on 15/12/29.
+//  Copyright (c) 2015年 QF. All rights reserved.
+//
+
+#ifndef LoveLife_PrefixHeader_pch
+#define LoveLife_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "Header.h"
+#endif
+
+#endif
