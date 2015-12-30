@@ -113,7 +113,7 @@
     UIView * bgView = [FactoryUI createViewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 60)];
     bgView.backgroundColor = [UIColor whiteColor];
     
-    UILabel * indexLabel = [FactoryUI createLabelWithFrame:CGRectMake(10, 10, 40, 40) text:[NSString stringWithFormat:@"%ld",section + 1] textColor:RGB(255, 256, 187, 1) font:[UIFont systemFontOfSize:16]];
+    UILabel * indexLabel = [FactoryUI createLabelWithFrame:CGRectMake(10, 10, 40, 40) text:[NSString stringWithFormat:@"%ld",section + 1] textColor:RGB(255, 100, 187, 1) font:[UIFont systemFontOfSize:16]];
     
     indexLabel.layer.borderColor = RGB(255, 156, 187, 1).CGColor;
     indexLabel.layer.borderWidth = 2;
@@ -130,7 +130,7 @@
     UIButton * priceButton = [FactoryUI createButtonWithFrame:CGRectMake(SCREEN_WIDTH-100, 10, 90, 40) title:nil titleColor:[UIColor darkGrayColor] imageName:nil backgroundImageName:nil target:self selector:@selector(priceButtonClick)];
     [bgView addSubview:priceButton];
     
-    [priceButton setTitle:[NSString stringWithFormat:@"￥%@",self.dataArray[section]] forState:UIControlStateNormal];
+    [priceButton setTitle:[NSString stringWithFormat:@"￥%@",self.dataArray[section][@"price"]] forState:UIControlStateNormal];
     
     return bgView;
 }

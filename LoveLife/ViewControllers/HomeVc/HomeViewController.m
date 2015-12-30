@@ -101,7 +101,7 @@
 //    _tableView.tableFooterView = [[UIView alloc]init];
     
 }
-#pragma mark - lunbo
+#pragma mark - 轮播图
 - (void)createTableHeaderView
 {
     _cyclePlaying = [[Carousel alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HIGHT/3)];
