@@ -218,6 +218,12 @@
 		BC55B2A01C32615E00681718 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55B29F1C32615E00681718 /* LeftViewController.m */; };
 		BC55B2A41C32782C00681718 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55B2A31C32782C00681718 /* Model.m */; };
 		BC55B2A81C327A4800681718 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55B2A71C327A4800681718 /* HomeCell.m */; };
+		BCEB42E51C34C1EF004A6289 /* FoodTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42E41C34C1EF004A6289 /* FoodTitleCell.m */; };
+		BCEB42E81C34C1FA004A6289 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42E71C34C1FA004A6289 /* FoodCell.m */; };
+		BCEB42EC1C34C35F004A6289 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42EB1C34C35F004A6289 /* FoodModel.m */; };
+		BCEB42F01C351328004A6289 /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42EE1C351328004A6289 /* RecordTableViewCell.m */; };
+		BCEB42F11C351328004A6289 /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEB42EF1C351328004A6289 /* RecordTableViewCell.xib */; };
+		BCEB42F41C351346004A6289 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42F31C351346004A6289 /* RecordModel.m */; };
 		BCF622501C336AB8004F5A57 /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6224F1C336AB8004F5A57 /* HomeDetailViewController.m */; };
 		BCF622551C3382D2004F5A57 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF622541C3382D2004F5A57 /* ArticleViewController.m */; };
 		BCF622581C3382E1004F5A57 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF622571C3382E1004F5A57 /* RecordViewController.m */; };
@@ -230,6 +236,9 @@
 		BCF6226B1C33D70B004F5A57 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF6226A1C33D70B004F5A57 /* CoreTelephony.framework */; };
 		BCF6226D1C33D715004F5A57 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF6226C1C33D715004F5A57 /* libstdc++.dylib */; };
 		BCF6226F1C33D720004F5A57 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF6226E1C33D720004F5A57 /* libz.dylib */; };
+		BCF805011C3A02B20055213F /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805001C3A02B20055213F /* FoodDetailViewController.m */; };
+		BCF805041C3A04980055213F /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805031C3A04980055213F /* FoodDetailTableViewCell.m */; };
+		BCF805071C3A05240055213F /* FoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805061C3A05240055213F /* FoodDetailModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -586,6 +595,17 @@
 		BC55B2A31C32782C00681718 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		BC55B2A61C327A4800681718 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		BC55B2A71C327A4800681718 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		BCEB42E31C34C1EF004A6289 /* FoodTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTitleCell.h; sourceTree = "<group>"; };
+		BCEB42E41C34C1EF004A6289 /* FoodTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTitleCell.m; sourceTree = "<group>"; };
+		BCEB42E61C34C1FA004A6289 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		BCEB42E71C34C1FA004A6289 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		BCEB42EA1C34C35F004A6289 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		BCEB42EB1C34C35F004A6289 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		BCEB42ED1C351328004A6289 /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
+		BCEB42EE1C351328004A6289 /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
+		BCEB42EF1C351328004A6289 /* RecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
+		BCEB42F21C351346004A6289 /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
+		BCEB42F31C351346004A6289 /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
 		BCF6224E1C336AB8004F5A57 /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
 		BCF6224F1C336AB8004F5A57 /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
 		BCF622531C3382D2004F5A57 /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
@@ -604,6 +624,12 @@
 		BCF6226A1C33D70B004F5A57 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BCF6226C1C33D715004F5A57 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		BCF6226E1C33D720004F5A57 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BCF804FF1C3A02B20055213F /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
+		BCF805001C3A02B20055213F /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
+		BCF805021C3A04980055213F /* FoodDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailTableViewCell.h; sourceTree = "<group>"; };
+		BCF805031C3A04980055213F /* FoodDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailTableViewCell.m; sourceTree = "<group>"; };
+		BCF805051C3A05240055213F /* FoodDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailModel.h; sourceTree = "<group>"; };
+		BCF805061C3A05240055213F /* FoodDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -648,17 +674,11 @@
 		BC55B0281C321B2D00681718 = {
 			isa = PBXGroup;
 			children = (
-				BCF6226E1C33D720004F5A57 /* libz.dylib */,
-				BCF6226C1C33D715004F5A57 /* libstdc++.dylib */,
-				BCF6226A1C33D70B004F5A57 /* CoreTelephony.framework */,
-				BCF622681C33D6F7004F5A57 /* CoreGraphics.framework */,
-				BCF622661C33D6EC004F5A57 /* SystemConfiguration.framework */,
-				BCF622641C33D6D5004F5A57 /* Security.framework */,
 				BC55B27A1C32222600681718 /* Framework */,
 				BC55B05A1C321BA300681718 /* Images */,
 				BC55B0B41C321BA300681718 /* ThirdLibrary */,
-				BC55B27B1C32228300681718 /* Models */,
 				BC55B27C1C32228300681718 /* ViewControllers */,
+				BC55B27B1C32228300681718 /* Models */,
 				BC55B27D1C32228300681718 /* Views */,
 				BC55B0331C321B2E00681718 /* LoveLife */,
 				BC55B04D1C321B2E00681718 /* LoveLifeTests */,
@@ -1370,6 +1390,12 @@
 		BC55B27A1C32222600681718 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				BCF6226E1C33D720004F5A57 /* libz.dylib */,
+				BCF6226C1C33D715004F5A57 /* libstdc++.dylib */,
+				BCF6226A1C33D70B004F5A57 /* CoreTelephony.framework */,
+				BCF622681C33D6F7004F5A57 /* CoreGraphics.framework */,
+				BCF622661C33D6EC004F5A57 /* SystemConfiguration.framework */,
+				BCF622641C33D6D5004F5A57 /* Security.framework */,
 				BC55B2781C321C1300681718 /* libiconv.dylib */,
 				BC55B2761C321C0800681718 /* QuartzCore.framework */,
 				BC55B2741C321C0000681718 /* CoreVideo.framework */,
@@ -1383,6 +1409,7 @@
 		BC55B27B1C32228300681718 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BCEB42E91C34C350004A6289 /* FoodModel */,
 				BCF622591C33B04A004F5A57 /* ReadModel */,
 				BC55B2A11C32740100681718 /* HomeModel */,
 			);
@@ -1407,6 +1434,7 @@
 		BC55B27D1C32228300681718 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCEB42E21C34C1C7004A6289 /* FoodCell */,
 				BCF6225D1C33B44C004F5A57 /* ReadCell */,
 				BC55B2A51C327A2A00681718 /* HomeCell */,
 				BC55B29B1C3236AD00681718 /* GuidePage.h */,
@@ -1434,6 +1462,7 @@
 			children = (
 				BC55B2871C32238100681718 /* FoodViewController.h */,
 				BC55B2881C32238100681718 /* FoodViewController.m */,
+				BCF804FE1C3A02910055213F /* DetailViewController */,
 			);
 			path = FoodVc;
 			sourceTree = "<group>";
@@ -1496,6 +1525,30 @@
 			path = HomeCell;
 			sourceTree = "<group>";
 		};
+		BCEB42E21C34C1C7004A6289 /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB42E31C34C1EF004A6289 /* FoodTitleCell.h */,
+				BCEB42E41C34C1EF004A6289 /* FoodTitleCell.m */,
+				BCEB42E61C34C1FA004A6289 /* FoodCell.h */,
+				BCEB42E71C34C1FA004A6289 /* FoodCell.m */,
+				BCF805021C3A04980055213F /* FoodDetailTableViewCell.h */,
+				BCF805031C3A04980055213F /* FoodDetailTableViewCell.m */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		BCEB42E91C34C350004A6289 /* FoodModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB42EA1C34C35F004A6289 /* FoodModel.h */,
+				BCEB42EB1C34C35F004A6289 /* FoodModel.m */,
+				BCF805051C3A05240055213F /* FoodDetailModel.h */,
+				BCF805061C3A05240055213F /* FoodDetailModel.m */,
+			);
+			path = FoodModel;
+			sourceTree = "<group>";
+		};
 		BCF622511C3382AB004F5A57 /* ArticleVc */ = {
 			isa = PBXGroup;
 			children = (
@@ -1521,6 +1574,8 @@
 			children = (
 				BCF6225A1C33B05C004F5A57 /* ReadModel.h */,
 				BCF6225B1C33B05C004F5A57 /* ReadModel.m */,
+				BCEB42F21C351346004A6289 /* RecordModel.h */,
+				BCEB42F31C351346004A6289 /* RecordModel.m */,
 			);
 			path = ReadModel;
 			sourceTree = "<group>";
@@ -1530,8 +1585,20 @@
 			children = (
 				BCF6225E1C33B476004F5A57 /* ArticleCell.h */,
 				BCF6225F1C33B476004F5A57 /* ArticleCell.m */,
+				BCEB42ED1C351328004A6289 /* RecordTableViewCell.h */,
+				BCEB42EE1C351328004A6289 /* RecordTableViewCell.m */,
+				BCEB42EF1C351328004A6289 /* RecordTableViewCell.xib */,
 			);
 			path = ReadCell;
+			sourceTree = "<group>";
+		};
+		BCF804FE1C3A02910055213F /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BCF804FF1C3A02B20055213F /* FoodDetailViewController.h */,
+				BCF805001C3A02B20055213F /* FoodDetailViewController.m */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1630,6 +1697,7 @@
 				BC55B2441C321BA300681718 /* UMSocialLocalizable.strings in Resources */,
 				BC55B1E71C321BA300681718 /* iconfont-lajitong.png in Resources */,
 				BC55B1BB1C321BA300681718 /* iconfont-music-fanhui.png in Resources */,
+				BCEB42F11C351328004A6289 /* RecordTableViewCell.xib in Resources */,
 				BC55B25D1C321BA300681718 /* zbar-back.png in Resources */,
 				BC55B1B91C321BA300681718 /* iconfont-iconfontshoucang-2.png in Resources */,
 				BC55B24E1C321BA300681718 /* UMSocialSDKResourcesNew.bundle in Resources */,
@@ -1778,7 +1846,10 @@
 				BC55B2531C321BA300681718 /* CustomViewController.mm in Sources */,
 				BC55B2061C321BA300681718 /* AFNetworkReachabilityManager.m in Sources */,
 				BC55B2331C321BA300681718 /* SDWebImagePrefetcher.m in Sources */,
+				BCEB42E81C34C1FA004A6289 /* FoodCell.m in Sources */,
+				BCF805011C3A02B20055213F /* FoodDetailViewController.m in Sources */,
 				BC55B2A81C327A4800681718 /* HomeCell.m in Sources */,
+				BCEB42F41C351346004A6289 /* RecordModel.m in Sources */,
 				BC55B2381C321BA300681718 /* UIImageView+HighlightedWebCache.m in Sources */,
 				BC55B20A1C321BA300681718 /* AFURLResponseSerialization.m in Sources */,
 				BC55B2201C321BA300681718 /* MJRefreshBackGifFooter.m in Sources */,
@@ -1786,6 +1857,7 @@
 				BC55B2541C321BA300681718 /* bitstream.c in Sources */,
 				BC55B2391C321BA300681718 /* UIImageView+WebCache.m in Sources */,
 				BC55B2241C321BA300681718 /* MJRefreshNormalHeader.m in Sources */,
+				BCEB42EC1C34C35F004A6289 /* FoodModel.m in Sources */,
 				BC55B21B1C321BA300681718 /* MJRefreshFooter.m in Sources */,
 				BCF622581C3382E1004F5A57 /* RecordViewController.m in Sources */,
 				BC55B2861C32234100681718 /* RootViewController.m in Sources */,
@@ -1800,6 +1872,7 @@
 				BC55B2561C321BA300681718 /* QRCodeGenerator.m in Sources */,
 				BC55B2071C321BA300681718 /* AFSecurityPolicy.m in Sources */,
 				BC55B2271C321BA300681718 /* MJRefreshConst.m in Sources */,
+				BCEB42E51C34C1EF004A6289 /* FoodTitleCell.m in Sources */,
 				BC55B2981C3223DB00681718 /* MyTabBarController.m in Sources */,
 				BC55B2231C321BA300681718 /* MJRefreshGifHeader.m in Sources */,
 				BC55B23C1C321BA300681718 /* CycleImageCell.m in Sources */,
@@ -1813,6 +1886,7 @@
 				BC55B2951C3223B200681718 /* ReadViewController.m in Sources */,
 				BC55B2291C321BA300681718 /* UIScrollView+MJRefresh.m in Sources */,
 				BC55B2591C321BA300681718 /* qrspec.c in Sources */,
+				BCEB42F01C351328004A6289 /* RecordTableViewCell.m in Sources */,
 				BCF622601C33B476004F5A57 /* ArticleCell.m in Sources */,
 				BC55B23F1C321BA300681718 /* ZLSwipeableView.m in Sources */,
 				BC55B2091C321BA300681718 /* AFURLRequestSerialization.m in Sources */,
@@ -1820,6 +1894,7 @@
 				BC55B29D1C3236AD00681718 /* GuidePage.m in Sources */,
 				BC55B20B1C321BA300681718 /* AFURLSessionManager.m in Sources */,
 				BC55B2301C321BA300681718 /* SDWebImageDownloader.m in Sources */,
+				BCF805041C3A04980055213F /* FoodDetailTableViewCell.m in Sources */,
 				BC55B2161C321BA300681718 /* FMResultSet.m in Sources */,
 				BC55B23B1C321BA300681718 /* Carousel.m in Sources */,
 				BC55B03A1C321B2E00681718 /* AppDelegate.m in Sources */,
@@ -1833,6 +1908,7 @@
 				BC55B20D1C321BA300681718 /* MMDrawerBarButtonItem.m in Sources */,
 				BC55B23A1C321BA300681718 /* UIView+WebCacheOperation.m in Sources */,
 				BC55B2131C321BA300681718 /* FMDatabaseAdditions.m in Sources */,
+				BCF805071C3A05240055213F /* FoodDetailModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

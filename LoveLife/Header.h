@@ -46,6 +46,8 @@
 //参数拼接：
 //NSDictionary * dic = @{@"methodName": @"HomeSerial", @"page": [NSString stringWithFormat:@"%d",_page], @"serial_id": _dataID, @"size": @"20"};
 
+//NSDictionary * dic = @{@"dishes_id": self.dataId, @"methodName": @"DishesView"};
+
 //音乐
 #define liuxing @"http://theinfoapps.com/myfm/category/1003841/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=541105&e=6RVcc6soACRbdXxqjkatPg"
 #define xinge @"http://theinfoapps.com/myfm/category/61/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=330044&e=ps_YSM9m_r-HkZIGujuUFg"
@@ -54,7 +56,7 @@
 
 #define yingyu @"http://theinfoapps.com/myfm/category/10004/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=143121&e=XGP8qT2gcYL9smqtVBG1hA"
 
-#define riyu @"http://theinfoapps.com/myfm/category/10006/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=401453&e=BxF7Xk4PgsnwbiDkcwye2A"
+#define riyu @"http://theinfoapps.com/myfm/category/10006/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=401453&e=BxF7Xk4PgsnwbiDk              cwye2A"
 
 #define qingyinyue @"http://theinfoapps.com/myfm/category/9/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=001512&e=0vCiDwfc1wJcu9u-BKoEKA"
 

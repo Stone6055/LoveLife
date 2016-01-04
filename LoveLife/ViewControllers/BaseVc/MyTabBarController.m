@@ -45,7 +45,7 @@
     ReadViewController * readVc = [[ReadViewController alloc]init];
     UINavigationController * readNav = [[UINavigationController alloc]initWithRootViewController:readVc];
     
-    self.viewControllers = @[homeNav,readNav,myNav,foodNav,musicNav];
+    self.viewControllers = @[homeNav,readNav,foodNav,myNav,musicNav];
     
 }
 -(void)createTabBarItem
