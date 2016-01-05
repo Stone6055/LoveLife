@@ -239,6 +239,15 @@
 		BCF805011C3A02B20055213F /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805001C3A02B20055213F /* FoodDetailViewController.m */; };
 		BCF805041C3A04980055213F /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805031C3A04980055213F /* FoodDetailTableViewCell.m */; };
 		BCF805071C3A05240055213F /* FoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805061C3A05240055213F /* FoodDetailModel.m */; };
+		BCF8050B1C3A49F20055213F /* MusciCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF8050A1C3A49F20055213F /* MusciCollectionViewCell.m */; };
+		BCF8050E1C3A4C1F0055213F /* MusicCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF8050D1C3A4C1F0055213F /* MusicCollectionReusableView.m */; };
+		BCF805111C3A513E0055213F /* MusciDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805101C3A513E0055213F /* MusciDetailViewController.m */; };
+		BCF805151C3A553F0055213F /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805141C3A553F0055213F /* MusicModel.m */; };
+		BCF805181C3A55690055213F /* MusicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805171C3A55690055213F /* MusicListTableViewCell.m */; };
+		BCF955BC1C3B5563004CC394 /* MusicPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF955BB1C3B5563004CC394 /* MusicPlayViewController.m */; };
+		BCF955BF1C3BB8DF004CC394 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF955BE1C3BB8DF004CC394 /* AboutMeViewController.m */; };
+		BCF955C11C3BE345004CC394 /* 美女20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF955C01C3BE345004CC394 /* 美女20.jpg */; };
+		BCF955C31C3BE559004CC394 /* 9d0e342016849ce3e35ea6062f3ecb1a.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BCF955C21C3BE559004CC394 /* 9d0e342016849ce3e35ea6062f3ecb1a.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -630,6 +639,22 @@
 		BCF805031C3A04980055213F /* FoodDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailTableViewCell.m; sourceTree = "<group>"; };
 		BCF805051C3A05240055213F /* FoodDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailModel.h; sourceTree = "<group>"; };
 		BCF805061C3A05240055213F /* FoodDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailModel.m; sourceTree = "<group>"; };
+		BCF805091C3A49F20055213F /* MusciCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusciCollectionViewCell.h; sourceTree = "<group>"; };
+		BCF8050A1C3A49F20055213F /* MusciCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusciCollectionViewCell.m; sourceTree = "<group>"; };
+		BCF8050C1C3A4C1F0055213F /* MusicCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollectionReusableView.h; sourceTree = "<group>"; };
+		BCF8050D1C3A4C1F0055213F /* MusicCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollectionReusableView.m; sourceTree = "<group>"; };
+		BCF8050F1C3A513E0055213F /* MusciDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusciDetailViewController.h; sourceTree = "<group>"; };
+		BCF805101C3A513E0055213F /* MusciDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusciDetailViewController.m; sourceTree = "<group>"; };
+		BCF805131C3A553F0055213F /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		BCF805141C3A553F0055213F /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		BCF805161C3A55690055213F /* MusicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableViewCell.h; sourceTree = "<group>"; };
+		BCF805171C3A55690055213F /* MusicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableViewCell.m; sourceTree = "<group>"; };
+		BCF955BA1C3B5563004CC394 /* MusicPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayViewController.h; sourceTree = "<group>"; };
+		BCF955BB1C3B5563004CC394 /* MusicPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayViewController.m; sourceTree = "<group>"; };
+		BCF955BD1C3BB8DF004CC394 /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		BCF955BE1C3BB8DF004CC394 /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		BCF955C01C3BE345004CC394 /* 美女20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美女20.jpg"; path = "../../LoveLife/ViewControllers/美女20.jpg"; sourceTree = "<group>"; };
+		BCF955C21C3BE559004CC394 /* 9d0e342016849ce3e35ea6062f3ecb1a.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9d0e342016849ce3e35ea6062f3ecb1a.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -828,6 +853,8 @@
 		BC55B0841C321BA300681718 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				BCF955C21C3BE559004CC394 /* 9d0e342016849ce3e35ea6062f3ecb1a.jpeg */,
+				BCF955C01C3BE345004CC394 /* 美女20.jpg */,
 				BC55B0851C321BA300681718 /* iconfont-bofangqishangyiqu.png */,
 				BC55B0861C321BA300681718 /* iconfont-bofangqixiayiqu.png */,
 				BC55B0871C321BA300681718 /* iconfont-musicbofang.png */,
@@ -1409,6 +1436,7 @@
 		BC55B27B1C32228300681718 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BCF805121C3A552D0055213F /* MusicModel */,
 				BCEB42E91C34C350004A6289 /* FoodModel */,
 				BCF622591C33B04A004F5A57 /* ReadModel */,
 				BC55B2A11C32740100681718 /* HomeModel */,
@@ -1434,6 +1462,7 @@
 		BC55B27D1C32228300681718 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCF805081C3A474B0055213F /* MusicCell */,
 				BCEB42E21C34C1C7004A6289 /* FoodCell */,
 				BCF6225D1C33B44C004F5A57 /* ReadCell */,
 				BC55B2A51C327A2A00681718 /* HomeCell */,
@@ -1483,6 +1512,10 @@
 			children = (
 				BC55B28D1C32239D00681718 /* MusicViewController.h */,
 				BC55B28E1C32239D00681718 /* MusicViewController.m */,
+				BCF8050F1C3A513E0055213F /* MusciDetailViewController.h */,
+				BCF805101C3A513E0055213F /* MusciDetailViewController.m */,
+				BCF955BA1C3B5563004CC394 /* MusicPlayViewController.h */,
+				BCF955BB1C3B5563004CC394 /* MusicPlayViewController.m */,
 			);
 			path = MusicVc;
 			sourceTree = "<group>";
@@ -1492,6 +1525,8 @@
 			children = (
 				BC55B2901C3223A600681718 /* MyViewController.h */,
 				BC55B2911C3223A600681718 /* MyViewController.m */,
+				BCF955BD1C3BB8DF004CC394 /* AboutMeViewController.h */,
+				BCF955BE1C3BB8DF004CC394 /* AboutMeViewController.m */,
 			);
 			path = MyVc;
 			sourceTree = "<group>";
@@ -1599,6 +1634,28 @@
 				BCF805001C3A02B20055213F /* FoodDetailViewController.m */,
 			);
 			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		BCF805081C3A474B0055213F /* MusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCF805091C3A49F20055213F /* MusciCollectionViewCell.h */,
+				BCF8050A1C3A49F20055213F /* MusciCollectionViewCell.m */,
+				BCF8050C1C3A4C1F0055213F /* MusicCollectionReusableView.h */,
+				BCF8050D1C3A4C1F0055213F /* MusicCollectionReusableView.m */,
+				BCF805161C3A55690055213F /* MusicListTableViewCell.h */,
+				BCF805171C3A55690055213F /* MusicListTableViewCell.m */,
+			);
+			path = MusicCell;
+			sourceTree = "<group>";
+		};
+		BCF805121C3A552D0055213F /* MusicModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCF805131C3A553F0055213F /* MusicModel.h */,
+				BCF805141C3A553F0055213F /* MusicModel.m */,
+			);
+			path = MusicModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1746,6 +1803,7 @@
 				BC55B1CC1C321BA300681718 /* 2vm.png in Resources */,
 				BC55B1DE1C321BA300681718 /* shili13.png in Resources */,
 				BC55B1C11C321BA300681718 /* iconfont-xiayishou.png in Resources */,
+				BCF955C11C3BE345004CC394 /* 美女20.jpg in Resources */,
 				BC55B1B31C321BA300681718 /* 15f81d189d5044b8ff2f825c0cbf1d24.jpg in Resources */,
 				BC55B1DA1C321BA300681718 /* iconfont-zanting.png in Resources */,
 				BC55B1DD1C321BA300681718 /* shili10.png in Resources */,
@@ -1794,6 +1852,7 @@
 				BC55B1D71C321BA300681718 /* iconfont-bofangqishangyiqu.png in Resources */,
 				BC55B1BC1C321BA300681718 /* iconfont-pengyouquan.png in Resources */,
 				BC55B2481C321BA300681718 /* UMSCommentInputControlleriPad.xib in Resources */,
+				BCF955C31C3BE559004CC394 /* 9d0e342016849ce3e35ea6062f3ecb1a.jpeg in Resources */,
 				BC55B2011C321BA300681718 /* welcome6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1834,12 +1893,15 @@
 				BC55B21D1C321BA300681718 /* MJRefreshAutoGifFooter.m in Sources */,
 				BC55B2041C321BA300681718 /* AFHTTPRequestOperationManager.m in Sources */,
 				BC55B2111C321BA300681718 /* FactoryUI.m in Sources */,
+				BCF955BC1C3B5563004CC394 /* MusicPlayViewController.m in Sources */,
 				BC55B2171C321BA300681718 /* MBProgressHUD.m in Sources */,
 				BC55B2321C321BA300681718 /* SDWebImageManager.m in Sources */,
 				BC55B23E1C321BA300681718 /* ZLPanGestureRecognizer.m in Sources */,
+				BCF805111C3A513E0055213F /* MusciDetailViewController.m in Sources */,
 				BC55B20F1C321BA300681718 /* MMDrawerVisualState.m in Sources */,
 				BC55B2551C321BA300681718 /* mask.c in Sources */,
 				BC55B22B1C321BA300681718 /* MKAnnotationView+WebCache.m in Sources */,
+				BCF805181C3A55690055213F /* MusicListTableViewCell.m in Sources */,
 				BC55B20C1C321BA300681718 /* FLSideSlipViewController.m in Sources */,
 				BC55B22E1C321BA300681718 /* SDWebImageCompat.m in Sources */,
 				BC55B22D1C321BA300681718 /* SDImageCache.m in Sources */,
@@ -1847,12 +1909,14 @@
 				BC55B2061C321BA300681718 /* AFNetworkReachabilityManager.m in Sources */,
 				BC55B2331C321BA300681718 /* SDWebImagePrefetcher.m in Sources */,
 				BCEB42E81C34C1FA004A6289 /* FoodCell.m in Sources */,
+				BCF955BF1C3BB8DF004CC394 /* AboutMeViewController.m in Sources */,
 				BCF805011C3A02B20055213F /* FoodDetailViewController.m in Sources */,
 				BC55B2A81C327A4800681718 /* HomeCell.m in Sources */,
 				BCEB42F41C351346004A6289 /* RecordModel.m in Sources */,
 				BC55B2381C321BA300681718 /* UIImageView+HighlightedWebCache.m in Sources */,
 				BC55B20A1C321BA300681718 /* AFURLResponseSerialization.m in Sources */,
 				BC55B2201C321BA300681718 /* MJRefreshBackGifFooter.m in Sources */,
+				BCF805151C3A553F0055213F /* MusicModel.m in Sources */,
 				BCF6225C1C33B05C004F5A57 /* ReadModel.m in Sources */,
 				BC55B2541C321BA300681718 /* bitstream.c in Sources */,
 				BC55B2391C321BA300681718 /* UIImageView+WebCache.m in Sources */,
@@ -1878,6 +1942,7 @@
 				BC55B23C1C321BA300681718 /* CycleImageCell.m in Sources */,
 				BC55B25A1C321BA300681718 /* rscode.c in Sources */,
 				BC55B2211C321BA300681718 /* MJRefreshBackNormalFooter.m in Sources */,
+				BCF8050B1C3A49F20055213F /* MusciCollectionViewCell.m in Sources */,
 				BC55B28C1C32239400681718 /* HomeViewController.m in Sources */,
 				BC55B2921C3223A600681718 /* MyViewController.m in Sources */,
 				BCF622551C3382D2004F5A57 /* ArticleViewController.m in Sources */,
@@ -1907,6 +1972,7 @@
 				BC55B23D1C321BA300681718 /* NBWaterFlowLayout.m in Sources */,
 				BC55B20D1C321BA300681718 /* MMDrawerBarButtonItem.m in Sources */,
 				BC55B23A1C321BA300681718 /* UIView+WebCacheOperation.m in Sources */,
+				BCF8050E1C3A4C1F0055213F /* MusicCollectionReusableView.m in Sources */,
 				BC55B2131C321BA300681718 /* FMDatabaseAdditions.m in Sources */,
 				BCF805071C3A05240055213F /* FoodDetailModel.m in Sources */,
 			);
