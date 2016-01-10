@@ -23,7 +23,6 @@
     imageView.image = [QRCodeGenerator qrImageForString:@"www.baidu.com" imageSize:300];
     [self.view addSubview:imageView];
     
-    
 }
 
 - (void)didReceiveMemoryWarning {

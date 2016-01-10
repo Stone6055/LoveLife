@@ -47,7 +47,6 @@
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     
     //3.多次使用队列组的方法执行任务, 只有异步方法
-    //3.1.执行3次循环
     dispatch_group_async(group, queue, ^{
         [self createAVAudioPlayer];
     });

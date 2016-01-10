@@ -11,5 +11,5 @@
 
 @interface ArticleDetailViewController : RootViewController
 //@property(nonatomic,copy) NSString * dataID;
-@property(nonatomic,strong) ReadModel * model;
+@property(nonatomic,strong) ReadModel * readModel;
 @end

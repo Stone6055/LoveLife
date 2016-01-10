@@ -7,6 +7,7 @@
 //
 
 #import "HomeDetailViewController.h"
+#import "WXApi.h"
 
 @interface HomeDetailViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -17,11 +18,21 @@
 }
 
 @property(nonatomic,strong) NSMutableDictionary * dataDic;
-
 @property(nonatomic,strong) NSMutableArray * dataArray;
+
+@property(nonatomic,strong) NSDictionary * goodsDictionary;
+
 @end
 
 @implementation HomeDetailViewController
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    if ([WXApi isWXAppInstalled]) {
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(getOrderResult:) name:@"success" object:nil];
+    }
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -130,6 +141,9 @@
     UIButton * priceButton = [FactoryUI createButtonWithFrame:CGRectMake(SCREEN_WIDTH-100, 10, 90, 40) title:nil titleColor:[UIColor darkGrayColor] imageName:nil backgroundImageName:nil target:self selector:@selector(priceButtonClick)];
     [bgView addSubview:priceButton];
     
+//    self.goodsDictionary = self.dataArray[@"price"];
+    
+    
     [priceButton setTitle:[NSString stringWithFormat:@"￥%@",self.dataArray[section][@"price"]] forState:UIControlStateNormal];
     
     return bgView;
@@ -137,6 +151,18 @@
 -(void)priceButtonClick
 {
     
+    
+}
+
+-(void)getOrderResult:(NSNotification *)not
+{
+    if ([not.object isEqualToString:@"success"]) {
+        NSLog(@"成功");
+    }
+    else
+    {
+        NSLog(@"失败");
+    }
     
 }
 

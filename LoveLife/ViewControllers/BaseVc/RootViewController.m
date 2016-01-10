@@ -26,7 +26,7 @@
 -(void)createRootNav
 {
     self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.barTintColor = RGB(255, 156, 187, 1);
+    self.navigationController.navigationBar.barTintColor = RGB(98, 172, 215, 1);
 //    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     
     self.leftButton = [UIButton buttonWithType:UIButtonTypeCustom];

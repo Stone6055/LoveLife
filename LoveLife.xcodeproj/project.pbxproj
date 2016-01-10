@@ -224,6 +224,13 @@
 		BCEB42F01C351328004A6289 /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42EE1C351328004A6289 /* RecordTableViewCell.m */; };
 		BCEB42F11C351328004A6289 /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEB42EF1C351328004A6289 /* RecordTableViewCell.xib */; };
 		BCEB42F41C351346004A6289 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB42F31C351346004A6289 /* RecordModel.m */; };
+		BCF4B2CE1C3E37BC006A100C /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4B2BE1C3E37BC006A100C /* WXApiManager.m */; };
+		BCF4B2CF1C3E37BC006A100C /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4B2C01C3E37BC006A100C /* WXApiRequestHandler.m */; };
+		BCF4B2D01C3E37BC006A100C /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4B2C21C3E37BC006A100C /* WXApiResponseHandler.m */; };
+		BCF4B2D11C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4B2C61C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */; };
+		BCF4B2D21C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4B2C81C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */; };
+		BCF4B2D31C3E37BC006A100C /* WXMediaMessage+messageConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4B2CA1C3E37BC006A100C /* WXMediaMessage+messageConstruct.m */; };
+		BCF4B2D41C3E37BC006A100C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF4B2CB1C3E37BC006A100C /* libWeChatSDK.a */; };
 		BCF622501C336AB8004F5A57 /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6224F1C336AB8004F5A57 /* HomeDetailViewController.m */; };
 		BCF622551C3382D2004F5A57 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF622541C3382D2004F5A57 /* ArticleViewController.m */; };
 		BCF622581C3382E1004F5A57 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF622571C3382E1004F5A57 /* RecordViewController.m */; };
@@ -236,6 +243,9 @@
 		BCF6226B1C33D70B004F5A57 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF6226A1C33D70B004F5A57 /* CoreTelephony.framework */; };
 		BCF6226D1C33D715004F5A57 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF6226C1C33D715004F5A57 /* libstdc++.dylib */; };
 		BCF6226F1C33D720004F5A57 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF6226E1C33D720004F5A57 /* libz.dylib */; };
+		BCF6BEBD1C3CA45900359D3E /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6BEBC1C3CA45900359D3E /* DBManager.m */; };
+		BCF6BEC01C3CA6A100359D3E /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6BEBF1C3CA6A100359D3E /* MyCollectionViewController.m */; };
+		BCF6BEC31C3CF10F00359D3E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6BEC21C3CF10F00359D3E /* LoginViewController.m */; };
 		BCF805011C3A02B20055213F /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805001C3A02B20055213F /* FoodDetailViewController.m */; };
 		BCF805041C3A04980055213F /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805031C3A04980055213F /* FoodDetailTableViewCell.m */; };
 		BCF805071C3A05240055213F /* FoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF805061C3A05240055213F /* FoodDetailModel.m */; };
@@ -615,6 +625,22 @@
 		BCEB42EF1C351328004A6289 /* RecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
 		BCEB42F21C351346004A6289 /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
 		BCEB42F31C351346004A6289 /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		BCF4B2BD1C3E37BC006A100C /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		BCF4B2BE1C3E37BC006A100C /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		BCF4B2BF1C3E37BC006A100C /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
+		BCF4B2C01C3E37BC006A100C /* WXApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		BCF4B2C11C3E37BC006A100C /* WXApiResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiResponseHandler.h; sourceTree = "<group>"; };
+		BCF4B2C21C3E37BC006A100C /* WXApiResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiResponseHandler.m; sourceTree = "<group>"; };
+		BCF4B2C41C3E37BC006A100C /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BCF4B2C51C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		BCF4B2C61C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		BCF4B2C71C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		BCF4B2C81C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		BCF4B2C91C3E37BC006A100C /* WXMediaMessage+messageConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXMediaMessage+messageConstruct.h"; sourceTree = "<group>"; };
+		BCF4B2CA1C3E37BC006A100C /* WXMediaMessage+messageConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXMediaMessage+messageConstruct.m"; sourceTree = "<group>"; };
+		BCF4B2CB1C3E37BC006A100C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		BCF4B2CC1C3E37BC006A100C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		BCF4B2CD1C3E37BC006A100C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		BCF6224E1C336AB8004F5A57 /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
 		BCF6224F1C336AB8004F5A57 /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
 		BCF622531C3382D2004F5A57 /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
@@ -633,6 +659,12 @@
 		BCF6226A1C33D70B004F5A57 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BCF6226C1C33D715004F5A57 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		BCF6226E1C33D720004F5A57 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BCF6BEBB1C3CA45900359D3E /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		BCF6BEBC1C3CA45900359D3E /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		BCF6BEBE1C3CA6A100359D3E /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		BCF6BEBF1C3CA6A100359D3E /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		BCF6BEC11C3CF10F00359D3E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BCF6BEC21C3CF10F00359D3E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		BCF804FF1C3A02B20055213F /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
 		BCF805001C3A02B20055213F /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
 		BCF805021C3A04980055213F /* FoodDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailTableViewCell.h; sourceTree = "<group>"; };
@@ -678,6 +710,7 @@
 				BC55B24F1C321BA300681718 /* libSocialWechat.a in Frameworks */,
 				BC55B25C1C321BA300681718 /* libzbar.a in Frameworks */,
 				BC55B2521C321BA300681718 /* libYixinSDK_V2.2.a in Frameworks */,
+				BCF4B2D41C3E37BC006A100C /* libWeChatSDK.a in Frameworks */,
 				BC55B2501C321BA300681718 /* libWeChatSDK.a in Frameworks */,
 				BC55B2421C321BA300681718 /* TencentOpenAPI.framework in Frameworks */,
 				BC55B2401C321BA300681718 /* libSocialSina.a in Frameworks */,
@@ -927,6 +960,7 @@
 		BC55B0B41C321BA300681718 /* ThirdLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				BCF4B2BB1C3E37BC006A100C /* SDKExport */,
 				BC55B0B51C321BA300681718 /* AFNetworking */,
 				BC55B0C91C321BA300681718 /* Drawer */,
 				BC55B0D61C321BA300681718 /* FactoryUI */,
@@ -1015,6 +1049,8 @@
 				BC55B0E11C321BA300681718 /* FMDatabaseQueue.m */,
 				BC55B0E21C321BA300681718 /* FMResultSet.h */,
 				BC55B0E31C321BA300681718 /* FMResultSet.m */,
+				BCF6BEBB1C3CA45900359D3E /* DBManager.h */,
+				BCF6BEBC1C3CA45900359D3E /* DBManager.m */,
 			);
 			path = FMDB;
 			sourceTree = "<group>";
@@ -1527,6 +1563,10 @@
 				BC55B2911C3223A600681718 /* MyViewController.m */,
 				BCF955BD1C3BB8DF004CC394 /* AboutMeViewController.h */,
 				BCF955BE1C3BB8DF004CC394 /* AboutMeViewController.m */,
+				BCF6BEBE1C3CA6A100359D3E /* MyCollectionViewController.h */,
+				BCF6BEBF1C3CA6A100359D3E /* MyCollectionViewController.m */,
+				BCF6BEC11C3CF10F00359D3E /* LoginViewController.h */,
+				BCF6BEC21C3CF10F00359D3E /* LoginViewController.m */,
 			);
 			path = MyVc;
 			sourceTree = "<group>";
@@ -1582,6 +1622,45 @@
 				BCF805061C3A05240055213F /* FoodDetailModel.m */,
 			);
 			path = FoodModel;
+			sourceTree = "<group>";
+		};
+		BCF4B2BB1C3E37BC006A100C /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4B2BC1C3E37BC006A100C /* Control */,
+				BCF4B2C31C3E37BC006A100C /* Helper */,
+				BCF4B2CB1C3E37BC006A100C /* libWeChatSDK.a */,
+				BCF4B2CC1C3E37BC006A100C /* WXApi.h */,
+				BCF4B2CD1C3E37BC006A100C /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		BCF4B2BC1C3E37BC006A100C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4B2BD1C3E37BC006A100C /* WXApiManager.h */,
+				BCF4B2BE1C3E37BC006A100C /* WXApiManager.m */,
+				BCF4B2BF1C3E37BC006A100C /* WXApiRequestHandler.h */,
+				BCF4B2C01C3E37BC006A100C /* WXApiRequestHandler.m */,
+				BCF4B2C11C3E37BC006A100C /* WXApiResponseHandler.h */,
+				BCF4B2C21C3E37BC006A100C /* WXApiResponseHandler.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		BCF4B2C31C3E37BC006A100C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4B2C41C3E37BC006A100C /* Constant.h */,
+				BCF4B2C51C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */,
+				BCF4B2C61C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */,
+				BCF4B2C71C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */,
+				BCF4B2C81C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */,
+				BCF4B2C91C3E37BC006A100C /* WXMediaMessage+messageConstruct.h */,
+				BCF4B2CA1C3E37BC006A100C /* WXMediaMessage+messageConstruct.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		BCF622511C3382AB004F5A57 /* ArticleVc */ = {
@@ -1885,6 +1964,7 @@
 				BC55B2341C321BA300681718 /* UIButton+WebCache.m in Sources */,
 				BCF622631C33CC1A004F5A57 /* ArticleDetailViewController.m in Sources */,
 				BCF622501C336AB8004F5A57 /* HomeDetailViewController.m in Sources */,
+				BCF4B2CF1C3E37BC006A100C /* WXApiRequestHandler.m in Sources */,
 				BC55B2181C321BA300681718 /* MJRefreshAutoFooter.m in Sources */,
 				BC55B25B1C321BA300681718 /* split.c in Sources */,
 				BC55B22C1C321BA300681718 /* NSData+ImageContentType.m in Sources */,
@@ -1896,6 +1976,7 @@
 				BCF955BC1C3B5563004CC394 /* MusicPlayViewController.m in Sources */,
 				BC55B2171C321BA300681718 /* MBProgressHUD.m in Sources */,
 				BC55B2321C321BA300681718 /* SDWebImageManager.m in Sources */,
+				BCF4B2D11C3E37BC006A100C /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */,
 				BC55B23E1C321BA300681718 /* ZLPanGestureRecognizer.m in Sources */,
 				BCF805111C3A513E0055213F /* MusciDetailViewController.m in Sources */,
 				BC55B20F1C321BA300681718 /* MMDrawerVisualState.m in Sources */,
@@ -1911,11 +1992,14 @@
 				BCEB42E81C34C1FA004A6289 /* FoodCell.m in Sources */,
 				BCF955BF1C3BB8DF004CC394 /* AboutMeViewController.m in Sources */,
 				BCF805011C3A02B20055213F /* FoodDetailViewController.m in Sources */,
+				BCF6BEC01C3CA6A100359D3E /* MyCollectionViewController.m in Sources */,
 				BC55B2A81C327A4800681718 /* HomeCell.m in Sources */,
+				BCF6BEC31C3CF10F00359D3E /* LoginViewController.m in Sources */,
 				BCEB42F41C351346004A6289 /* RecordModel.m in Sources */,
 				BC55B2381C321BA300681718 /* UIImageView+HighlightedWebCache.m in Sources */,
 				BC55B20A1C321BA300681718 /* AFURLResponseSerialization.m in Sources */,
 				BC55B2201C321BA300681718 /* MJRefreshBackGifFooter.m in Sources */,
+				BCF4B2D21C3E37BC006A100C /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */,
 				BCF805151C3A553F0055213F /* MusicModel.m in Sources */,
 				BCF6225C1C33B05C004F5A57 /* ReadModel.m in Sources */,
 				BC55B2541C321BA300681718 /* bitstream.c in Sources */,
@@ -1926,6 +2010,9 @@
 				BCF622581C3382E1004F5A57 /* RecordViewController.m in Sources */,
 				BC55B2861C32234100681718 /* RootViewController.m in Sources */,
 				BC55B21E1C321BA300681718 /* MJRefreshAutoNormalFooter.m in Sources */,
+				BCF4B2D31C3E37BC006A100C /* WXMediaMessage+messageConstruct.m in Sources */,
+				BCF4B2CE1C3E37BC006A100C /* WXApiManager.m in Sources */,
+				BCF4B2D01C3E37BC006A100C /* WXApiResponseHandler.m in Sources */,
 				BC55B2101C321BA300681718 /* UIViewController+MMDrawerController.m in Sources */,
 				BC55B2371C321BA300681718 /* UIImage+WebP.m in Sources */,
 				BC55B2A41C32782C00681718 /* Model.m in Sources */,
@@ -1955,6 +2042,7 @@
 				BCF622601C33B476004F5A57 /* ArticleCell.m in Sources */,
 				BC55B23F1C321BA300681718 /* ZLSwipeableView.m in Sources */,
 				BC55B2091C321BA300681718 /* AFURLRequestSerialization.m in Sources */,
+				BCF6BEBD1C3CA45900359D3E /* DBManager.m in Sources */,
 				BC55B2311C321BA300681718 /* SDWebImageDownloaderOperation.m in Sources */,
 				BC55B29D1C3236AD00681718 /* GuidePage.m in Sources */,
 				BC55B20B1C321BA300681718 /* AFURLSessionManager.m in Sources */,
@@ -2127,6 +2215,7 @@
 					"$(PROJECT_DIR)/ThirdLibrary/UMShare/Wechat",
 					"$(PROJECT_DIR)/ThirdLibrary/UMShare/YiXin",
 					"$(PROJECT_DIR)/ThirdLibrary/ZBarSDK",
+					"$(PROJECT_DIR)/ThirdLibrary/SDKExport",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2152,6 +2241,7 @@
 					"$(PROJECT_DIR)/ThirdLibrary/UMShare/Wechat",
 					"$(PROJECT_DIR)/ThirdLibrary/UMShare/YiXin",
 					"$(PROJECT_DIR)/ThirdLibrary/ZBarSDK",
+					"$(PROJECT_DIR)/ThirdLibrary/SDKExport",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

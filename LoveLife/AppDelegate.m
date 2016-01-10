@@ -16,6 +16,10 @@
 #import "UMSocialWechatHandler.h"
 #import "UMSocialSinaHandler.h"
 
+#import "WXApi.h"
+#import "WXApiManager.h"
+#import "WXApiRequestHandler.h"
+
 @interface AppDelegate ()
 @property (nonatomic,strong) GuidePage * goInPageView;
 @property (nonatomic,strong) MyTabBarController * myTabBar;
@@ -43,8 +47,47 @@
     
     [self createGuidePage];
     [self addUMShare];
+    
+    [WXApi registerApp:@"" withDescription:@"pay"];
+    
+    
     return YES;
 }
+
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+}
+
+-(void) onResp:(BaseResp *)resp{
+    NSString * strMessage = [NSString stringWithFormat:@"%d",resp.errCode];
+    switch (resp.errCode) {
+        case 0:
+        {
+            strMessage = @"成功";
+        }
+            break;
+        case -1:
+        {
+            strMessage = @"失败";
+        }
+            break;
+        case -2:
+        {
+            strMessage = @"放弃";
+        }
+            break;
+            
+        default:
+            break;
+    }
+}
+
 -(void)addUMShare
 {
     [UMSocialData setAppKey:APPKEY];
@@ -79,6 +122,12 @@
 }
 
 
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    application.applicationIconBadgeNumber = 0;
+}
+
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
@@ -91,6 +140,8 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    application.applicationIconBadgeNumber = 0;
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {

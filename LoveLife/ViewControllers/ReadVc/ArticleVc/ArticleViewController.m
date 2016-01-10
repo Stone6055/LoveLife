@@ -130,7 +130,7 @@
 {
     ArticleDetailViewController * detailVc = [[ArticleDetailViewController alloc]init];
     ReadModel * model = self.dataSource[indexPath.row];
-    detailVc.model = model;
+    detailVc.readModel = model;
     [self.navigationController pushViewController:detailVc animated:YES];
 }
 - (void)didReceiveMemoryWarning {

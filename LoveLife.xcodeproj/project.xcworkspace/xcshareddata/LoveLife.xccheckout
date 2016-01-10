@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AD73F4C6-672B-4FEA-837B-46F411D289F7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>LoveLife</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B4A64CBA276CC877691C2D85516F97268FAB008B</key>
 		<string>https://github.com/Stone6055/LoveLife.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LoveLife.xcodeproj/project.xcworkspace</string>
+	<string>LoveLife.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B4A64CBA276CC877691C2D85516F97268FAB008B</key>
